@@ -1,0 +1,60 @@
+{
+  "employees": [],
+  "branches": [],
+  "products": [],
+  "orders": [
+    {
+      "id": "OL-1788206511265",
+      "type": "online",
+      "customer": "4444",
+      "employee": "سارة",
+      "product": "ماء معدني",
+      "quantity": 4,
+      "total": 20,
+      "createdAt": "2026-08-31T20:01:51.265Z"
+    },
+    {
+      "id": "POS-1788206561520",
+      "type": "pos",
+      "branch": "masr",
+      "product": "قهوة عربية",
+      "quantity": 1,
+      "total": 18,
+      "createdAt": "2026-08-31T20:02:41.520Z"
+    },
+    {
+      "id": "POS-1788206568559",
+      "type": "pos",
+      "branch": "masr",
+      "product": "قهوة عربية",
+      "quantity": 1,
+      "total": 18,
+      "createdAt": "2026-08-31T20:02:48.559Z"
+    },
+    {
+      "id": "POS-1788206579631",
+      "type": "pos",
+      "branch": "فرع جدة",
+      "product": "كيك الشوكولاتة",
+      "quantity": 1,
+      "total": 25,
+      "createdAt": "2026-08-31T20:02:59.631Z"
+    },
+    {
+      "id": "POS-1788206586583",
+      "type": "pos",
+      "branch": "فرع الرياض",
+      "product": "كيك الشوكولاتة",
+      "quantity": 1,
+      "total": 25,
+      "createdAt": "2026-08-31T20:03:06.583Z"
+    }
+  ],
+  "summary": {
+    "revenueToday": 4250,
+    "onlineOrders": 14,
+    "directSales": 23,
+    "lowStock": 2,
+    "openBranches": 2
+  }
+}
